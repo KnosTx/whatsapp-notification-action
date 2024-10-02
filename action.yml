@@ -1,6 +1,6 @@
 name: 'WhatsApp Notification Action'
 description: 'Send WhatsApp notification on GitHub release'
-author: 'Your Name'
+author: 'KnosTx'
 
 inputs:
   whatsapp_invite_link:
