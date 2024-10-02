@@ -22,12 +22,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Send WhatsApp Notification
-        uses: your-username/whatsapp-notification-action@v1
+        uses: KnosTx/whatsapp-notification-action@v1
         with:
           whatsapp_invite_link: "https://chat.whatsapp.com/<invite_code>"
 ```
-## Inputs
-
 ### Example
 
 This action is triggered when a new release is published. It fetches the release title and description and displays them in the workflow output along with the WhatsApp group invite link.
@@ -48,7 +46,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Send WhatsApp Notification
-        uses: your-username/whatsapp-notification-action@v1
+        uses: KnosTx/whatsapp-notification-action@v1
         with:
           whatsapp_invite_link: "https://chat.whatsapp.com/ABC123XYZ456"
 ```
@@ -61,7 +59,7 @@ The release description (or a default message if none is provided)
 The WhatsApp group invite link provided in the whatsapp_invite_link input
 
 
-### Outputs
+## Outputs
 
 Currently, this action does not output any additional data beyond console logs.
 
