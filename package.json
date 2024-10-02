@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-notification-action",
+  "version": "1.0.0",
+  "description": "A GitHub Action to send WhatsApp notifications on release",
+  "main": "sendMessage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KnosTx",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.0.3"
+  }
+}
