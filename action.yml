@@ -1,0 +1,16 @@
+name: 'WhatsApp Notification Action'
+description: 'Send WhatsApp notification on GitHub release'
+author: 'Your Name'
+
+inputs:
+  whatsapp_invite_link:
+    description: 'Invite link to WhatsApp group'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'sendMessage.js'
+
+branding:
+  icon: 'message-square'
+  color: 'green'
